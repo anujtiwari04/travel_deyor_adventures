@@ -2,6 +2,14 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Calendar, MapPin, Camera } from 'lucide-react';
 
+// Import destination images
+import shimlaImg from '@/assets/shimla.jpg';
+import sanglaImg from '@/assets/sangla.jpg';
+import kalpaImg from '@/assets/kalpa.jpg';
+import kazaImg from '@/assets/kaza.jpg';
+import chandratalImg from '@/assets/chandrataal.jpg';
+import manaliImg from '@/assets/manali.jpg';
+
 const itineraryData = [
   {
     day: 1,
@@ -9,7 +17,7 @@ const itineraryData = [
     title: 'Chandigarh → Shimla',
     description: '4–5 hrs scenic drive through colonial charm and pine forests',
     highlights: ['Colonial Architecture', 'Pine Forests', 'Mountain Views'],
-    image: '/src/assets/shimla.jpg'
+    image: shimlaImg
   },
   {
     day: 2,
@@ -17,7 +25,7 @@ const itineraryData = [
     title: 'Shimla → Sangla',
     description: '220 km journey along Baspa River with Kinner Kailash Range views',
     highlights: ['Baspa River', 'Kinner Kailash Range', 'Bering Nag Temple'],
-    image: '/src/assets/sangla.jpg'
+    image: sanglaImg
   },
   {
     day: 3,
@@ -25,7 +33,7 @@ const itineraryData = [
     title: 'Sangla → Kalpa',
     description: 'Journey via Chitkul village, Kinnaur Kailash Range, and scenic viewpoints',
     highlights: ['Chitkul Village', 'Suicide Point', 'Roghi Village'],
-    image: '/src/assets/kalpa.jpg'
+    image: kalpaImg
   },
   {
     day: 4,
@@ -33,7 +41,7 @@ const itineraryData = [
     title: 'Kalpa → Kaza',
     description: '200 km adventure through Nako Lake, Tabo Monastery, and Pin Valley',
     highlights: ['Nako Lake', 'Tabo Monastery', 'Pin Valley'],
-    image: '/src/assets/kaza.jpg'
+    image: kazaImg
   },
   {
     day: 5,
@@ -41,7 +49,7 @@ const itineraryData = [
     title: 'Explore Kaza',
     description: 'Full day exploring Key Monastery, Sakya Tangyud Monastery, and local attractions',
     highlights: ['Key Monastery', 'Chicham Bridge', 'Local Cafes & Market'],
-    image: '/src/assets/kaza.jpg'
+    image: kazaImg
   },
   {
     day: 6,
@@ -49,7 +57,7 @@ const itineraryData = [
     title: 'Kaza → Chandrataal',
     description: 'Journey via Kunzum Pass to the pristine Chandrataal Lake for camping',
     highlights: ['Kunzum Pass', 'Chandrataal Lake', 'High Altitude Camping'],
-    image: '/src/assets/chandrataal.jpg'
+    image: chandratalImg
   },
   {
     day: 7,
@@ -57,7 +65,7 @@ const itineraryData = [
     title: 'Chandrataal → Manali',
     description: 'Scenic drive through Batal, Atal Tunnel, pine forests, and riverside cafes',
     highlights: ['Atal Tunnel', 'Pine Forests', 'Riverside Cafes'],
-    image: '/src/assets/manali.jpg'
+    image: manaliImg
   },
   {
     day: 8,
@@ -65,7 +73,7 @@ const itineraryData = [
     title: 'Manali → Chandigarh',
     description: '310 km journey through scenic Kullu Valley with airport drop',
     highlights: ['Kullu Valley', 'Airport Drop', 'Journey Completion'],
-    image: '/src/assets/manali.jpg'
+    image: manaliImg
   }
 ];
 
